@@ -1,0 +1,13 @@
+##NEVER, EVER CHECK IN YOUR ACTUAL CREDS file
+##THIS IS AN EXAMPLE
+GIT_REPO: git@github.com:github-user/repo-name.git
+GIT_BRANCH: master
+CF_API: https://api.run.pivotal.io 
+CF_USER: cf-user
+CF_PASS: cf-user-pass
+CF_ORG: cf-org
+CF_SPACE: cf-space
+GIT_PRIVATE_KEY: |
+  -----BEGIN RSA PRIVATE KEY-----
+  ...
+  -----END RSA PRIVATE KEY-----
